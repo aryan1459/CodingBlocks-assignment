@@ -1,0 +1,24 @@
+div
+{
+  width: 100%;
+  background-color:lightblue;
+  border: 3px solid blue;
+  color:darkred;
+  position: sticky;
+  top:0px;
+}
+h1
+{
+    color :rgb(35, 112, 148)
+
+}
+li
+{
+    list-style-type: '\260E';
+    list-style-position: inside;
+}
+ul
+{
+ color:seagreen;
+ font-family: "Lucida Console", "Courier New", monospace;
+}
