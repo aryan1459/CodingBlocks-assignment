@@ -1,0 +1,29 @@
+body{
+   background-color:#343a40 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    overflow: hidden;
+}
+
+button{
+    width: 250px;
+    height: 70px;
+    text-transform: uppercase;
+    color: #333d29;
+    border:0.5px solid  #64bacf;
+    border-radius: 10%;
+    background-color:#64bacf;
+    box-shadow: 0px 0px 20px #d3d3d3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+button:hover{
+    background-color: #ffb5a7;
+    box-shadow: 0px 0px 20px #ffa200;
+    border-radius: 10px 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+  }
