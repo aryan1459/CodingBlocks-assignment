@@ -1,0 +1,163 @@
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #dfe7fd;
+    font-family: 'Bebas Neue', cursive;
+  }
+  
+  
+  
+  nav{
+    width: 100vw;
+    height: 80px;
+    background-color: #495057;
+    overflow: hidden;
+    
+  }
+  
+  ul{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+  
+  }
+  
+  li{
+    list-style-type: none;
+    color: white;
+    font-size: 2rem;
+    padding-top: 10px;
+   
+    
+  }
+  
+  a{
+    text-decoration: none;
+    color:white;
+    padding:15px 2px;
+  }
+
+  
+
+  
+  
+  
+  @media screen and (max-width:650px){
+    
+    ul{
+      flex-direction: column;
+      align-items: center;
+    }
+    nav{
+      height: 250px;
+    }
+  }
+  
+  #slideshow{
+    width: 70vw;
+    height: 500px;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+  
+  .slide{
+    float:left
+  }
+  
+  .slide img{
+  
+    height: 700px;
+    width: 60vw;
+  }
+  
+  .wrapper{
+    width: calc(70vw*6);
+    animation:  15s ease infinite slider;
+    overflow: hidden;
+  }
+  
+
+  @keyframes slider {
+    /* Calculate the margin-left for 
+    each of the slides */
+  
+    16% {
+      margin-left: 0px;
+    }
+    
+    32% {
+      margin-left: calc(-60vw * 1);
+    }
+    
+    48% {
+      margin-left: calc(-60vw * 2);
+    }
+    
+    64% {
+      margin-left: calc(-60vw* 3);
+    }
+  
+    80%{
+      margin-left:calc(-60vw*4);
+    }
+  
+    96%{
+      margin-left:calc(-60vw*5);
+    }
+  }
+  
+  #items{
+    width: 70vw;
+    height: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  figure{
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    border: 1px  #efd3d7;
+    font-size: 1rem;
+    color: #22223b;
+    box-shadow: 0 0  3px rgb(104,104,104);
+    transition: .2s ease-in;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+
+ 
+  
+  figure:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  figure img{
+    width: 100%;
+  }
+  
+  figure button{
+    font-size: 1rem;
+    width: 90px;
+    height: 40px;
+    border-radius: 2px;
+    transition: 1s ease;
+  }
+  
+  figure button:hover{
+    background-color: rgb(77, 164, 170);
+    cursor: pointer;
+  }
+
+ 
+
+  
+ 
